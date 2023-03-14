@@ -1,17 +1,12 @@
-# fly.toml file generated for long-frost-1530 on 2023-03-13T10:25:52-04:00
+# fly.toml file generated for withered-cloud-202 on 2023-03-14T15:40:59-04:00
 
-app = "long-frost-1530"
+app = "withered-cloud-202"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "ams"
 processes = []
 
-[build]
-  [build.args]
-    NEXT_PUBLIC_EXAMPLE = "Value goes here"
-
 [env]
-  PORT = "8080"
 
 [experimental]
   auto_rollback = true
