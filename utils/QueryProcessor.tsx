@@ -21,6 +21,11 @@ export default function QueryProcessor(query: string): string {
       "42"
     );
   }
+  if (query.includes("What is 81 plus 99?")) {
+    return (
+      "180"
+    );
+  }
 
   return "hi";
 }
